@@ -38,7 +38,7 @@ function StarRating({ starCount = 5 }: starRatingProps) {
         );
       })}
       <p>
-        {selectedStar}/{starCount}
+        {hoverSelected || selectedStar}/{starCount}
       </p>
     </div>
   );
