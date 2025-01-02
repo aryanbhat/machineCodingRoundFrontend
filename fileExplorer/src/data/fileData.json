@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "name": "root",
+    "isFolder": true,
+    "path": "/",
+    "size": null,
+    "items": [
+      {
+        "id": 2,
+        "name": "src",
+        "isFolder": true,
+        "path": "/src",
+        "size": null,
+        "items": [
+          {
+            "id": 3,
+            "name": "index.js",
+            "isFolder": false,
+            "path": "/src/index.js",
+            "size": "2 KB"
+          },
+          {
+            "id": 4,
+            "name": "styles.css",
+            "isFolder": false,
+            "path": "/src/styles.css",
+            "size": "1 KB"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "public",
+        "isFolder": true,
+        "path": "/public",
+        "size": null,
+        "items": [
+          {
+            "id": 6,
+            "name": "index.html",
+            "isFolder": false,
+            "path": "/public/index.html",
+            "size": "4 KB"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "package.json",
+        "isFolder": false,
+        "path": "/package.json",
+        "size": "1 KB"
+      },
+      {
+        "id": 8,
+        "name": "README.md",
+        "isFolder": false,
+        "path": "/README.md",
+        "size": "512 B"
+      }
+    ]
+  }
+]

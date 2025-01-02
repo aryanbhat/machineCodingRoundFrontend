@@ -1,0 +1,52 @@
+.folder__list {
+  padding-left: 20px;
+}
+
+.folder__container,
+.file__container {
+  background-color: #f9f7e8;
+  border-radius: 5px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.folder__container:hover {
+  background-color: #f1e9d2;
+}
+
+.folder__buttons--container {
+  margin-left: auto;
+  display: flex;
+  gap: 5px;
+}
+
+.folder__input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
+}
+
+input {
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 4px 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
